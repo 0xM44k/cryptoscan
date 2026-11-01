@@ -1,0 +1,9 @@
+{
+  "quantum_horizon_years": 12,
+  "migration_years": 4,
+  "signature_validity_years": 2,
+  "paths": [
+    {"glob": "services/payments/*", "data_lifetime_years": 10}
+  ],
+  "ignore": []
+}

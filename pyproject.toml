@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cryptoscan"
+version = "0.3.0"
+description = "Source-code cryptography inventory with quantum-migration prioritisation"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+cryptoscan = "cryptoscan.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
